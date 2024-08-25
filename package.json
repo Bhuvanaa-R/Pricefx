@@ -13,6 +13,7 @@
     "@nextui-org/system": "^2.2.5",
     "@nextui-org/table": "^2.0.39",
     "@nextui-org/theme": "^2.2.9",
+    "axios": "^1.7.5",
     "dotenv": "^16.4.5",
     "framer-motion": "^11.3.30",
     "next": "14.2.6",
