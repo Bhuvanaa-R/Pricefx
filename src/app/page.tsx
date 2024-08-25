@@ -78,12 +78,13 @@ export default function Home() {
         </TableHeader>
         <TableBody items={items}>
           {(item) => (
-            <TableRow key={item.typedId}>
+            <TableRow key={item}>
               {(columnKey) => <TableCell className="text-white">{getKeyValue(item, columnKey)}</TableCell>}
             </TableRow>
           )}
         </TableBody>
       </Table>
+
     </div>
   );
 }
