@@ -2,10 +2,10 @@ import axios from 'axios';
 import dotenv from 'dotenv';
 dotenv.config();
 
-export const fetchData = async () => {
+export const fetchDataC = async () => {
   try {
     const response = await axios.post(
-      process.env.NEXT_PUBLIC_API_URL,
+      process.env.NEXT_PUBLIC_CUSTOMER_URL,
       {
         // Body content for the POST request (if required)
       },
