@@ -12,8 +12,8 @@ import {
   Pagination,
   getKeyValue,
 } from "@nextui-org/react";
-import { fetchDataP } from "@/services/api_product";
-import { fetchDataC } from "@/services/api_customer";
+import { fetchDataP } from "@/api/api_product";
+import { fetchDataC } from "@/api/api_customer";
 
 export default function Home() {
   const [page, setPage] = useState(1);
